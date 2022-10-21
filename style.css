@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Telugu:wght@700&family=Poppins:wght@100;300;600&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -50,4 +49,70 @@ header ul li a{
 header ul li a:hover,
 header ul li a.active{
     color: rgb(255, 140, 0);
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    padding: 100px;
+    gap: 100px;
+}
+
+section .content{
+    max-width: 700px;
+}
+
+h2{    
+    font-size: 3.5em;
+    color: aliceblue;
+    font-weight: 300;
+}
+
+span{
+    color: #0f0;
+    font-family: 'Noto Serif Telugu', serif;
+}
+
+p{
+    color: #999;
+    font-size: 1rem;
+}
+
+.btn{
+    color: aqua;
+    text-decoration: none;
+    padding: 10px 15px;
+    background: #fff;
+    color: #222;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 25px;
+    transition: 0.5s ease-in-out;
+    letter-spacing: 0.2em;
+}
+
+.btn:hover{
+    letter-spacing: 0.3em;
+}
+
+.container{
+    position: relative;
+    right: 100px;
+    min-width: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container .element{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background: #999;
+    scale: 0.75;
 }
